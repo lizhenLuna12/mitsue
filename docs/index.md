@@ -11,5 +11,3 @@
 1. XXXX
 2. XXXX
 
-[Link](url) and ![Image](src)
-```
