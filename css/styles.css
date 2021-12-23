@@ -399,8 +399,10 @@ a:hover {
 }
 
 .darkBg {
-    background: #000;
+    background: #FFDBC9;
 }
+
+
 
 .darkBg .fa {
     color: #f49500;
@@ -701,7 +703,7 @@ img, video, iframe, embed, object {
 }
 
 #portfolio {
-    background: #000;
+    background: #FFFFFF;
 }
 
 #portfolio img {
