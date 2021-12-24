@@ -1225,6 +1225,13 @@ footer {
         margin: 0 0 23px 5px;
     };
 }
+@media (min-width: 751px) {
+    a[href*="tel:"] {
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+    }
+}
 
 #owl-demo .item {
     background: #3fbf79;
