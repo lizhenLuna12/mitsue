@@ -119,17 +119,6 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(255,255,255,0.35);
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-    text-shadow: none;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -ms-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-}
-
 a:hover {
     color: #000;
     text-decoration: none;
@@ -779,6 +768,7 @@ nav#filter a {
 
 #services .col-md-3 {
     opacity: 0;
+    width: 30%
 }
 
 .fancybox-overlay {
@@ -1261,6 +1251,18 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.contact-parlex h2 {
+    color: #FFFFFF;
+}
+
+.contact-parlex h3 {
+    color: #FFFFFF;
+}
+
+.contact-parlex p {
+    color: #FFFFFF;
 }
 
 .parlex-back {
