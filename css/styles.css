@@ -1353,21 +1353,7 @@ footer {
 
 .google-calendar {
     width: 100%;
-    position: relative;
-}
-
-.google-calendar:before {
-    content: "";
-    display: block;
-    padding-top: 65%;
-}
-
-.google-calendar iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    max-width: 800px;
 }
 
 .list {
