@@ -373,6 +373,7 @@ a:hover {
     width: 100%;
     height: auto;
     padding: 35px 0;
+    background: #FFDBC9;
 }
 
 .noPadd {
@@ -392,7 +393,10 @@ a:hover {
 .page-section h2 {
     color: #f49500;
 }
-
+.page-section iframe {
+    width: 800px;
+    height: 600px;
+}
 .page-section p {
     font-size: 1.1em;
     line-height: 1.6em;
