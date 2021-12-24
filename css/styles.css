@@ -387,6 +387,7 @@ a:hover {
     height: 600px;
 }
 .page-section p {
+    color: crimson;
     font-size: 1.1em;
     line-height: 1.6em;
 }
@@ -556,10 +557,11 @@ img, video, iframe, embed, object {
 }
 
 #features h3 {
+    font-size: 32px;
     font: 18px/34px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #222;
+    color: #000000;
 }
 
 .fluid-video-wrapper {
