@@ -401,12 +401,11 @@ a:hover {
 }
 
 #home {
-    background: url("../images/banner-bg.jpg")
+    background-image: url('../images/banner-bg.jpg');
 }
 
 /*--- Banner ----*/
 .banner-container {
-    background: #fff;
     width: 100%;
     position: relative;
     padding: 0px;
