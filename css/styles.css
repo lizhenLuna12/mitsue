@@ -396,11 +396,14 @@ a:hover {
     background: #000000;
 }
 
-
-
 .darkBg .fa {
     color: #f49500;
 }
+
+#top {
+    background: url("../images/banner-bg.jpg")
+}
+
 /*--- Banner ----*/
 .banner-container {
     background: #fff;
@@ -422,7 +425,7 @@ a:hover {
 }
 
 .banner-content {
-    position: absolute;
+    position: relative;
     z-index: 3;
     top: 0px;
     left: 0px;
