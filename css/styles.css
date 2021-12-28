@@ -290,15 +290,9 @@ a:hover {
     line-height: 90px !important;
 }
 
-#section-strapline {
-    background: #f00bfff;
-    line-height: 42px;
-    clear: both;
-}
 /*----Nav ----*/
 .header .navbar-brand {
     float: left;
-    padding: 16px 15px;
     line-height: 18px;
     height: 50px;
     /*color:#f49500;*/
@@ -314,7 +308,6 @@ a:hover {
 .logo {
     font-size: 2.2em;
     text-shadow: none;
-    margin: 8px 0 0 0;
 }
 
 .logo:hover {
