@@ -586,7 +586,7 @@ img, video, iframe, embed, object {
 }
 
 #features .right {
-    padding-left: 110px;
+    padding-left: 0px;
     float: right;
 }
 
