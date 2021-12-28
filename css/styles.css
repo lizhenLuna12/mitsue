@@ -119,6 +119,17 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(255,255,255,0.35);
 }
 
+a {
+    color: #f49500;
+    text-decoration: none;
+    text-shadow: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
 a:hover {
     color: #000;
     text-decoration: none;
@@ -230,7 +241,7 @@ a:hover {
     color: #676e73;
     width: 83%;
     text-align: center;
-    margin: 0 auto 24px auto;
+    margin: 10% auto 24px auto;
 }
 
 .hero-text p {
@@ -362,7 +373,6 @@ a:hover {
     width: 100%;
     height: auto;
     padding: 35px 0;
-    background: #FFDBC9;
 }
 
 .noPadd {
@@ -382,28 +392,21 @@ a:hover {
 .page-section h2 {
     color: #f49500;
 }
-.page-section iframe {
-    width: 800px;
-    height: 600px;
-}
+
 .page-section p {
-    color: crimson;
     font-size: 1.1em;
     line-height: 1.6em;
 }
 
 .darkBg {
-    background: #000000;
+    background: #000;
 }
-
-
 
 .darkBg .fa {
     color: #f49500;
 }
 /*--- Banner ----*/
 .banner-container {
-    background: #fff;
     width: 100%;
     position: relative;
     padding: 0px;
@@ -417,7 +420,6 @@ a:hover {
 }
 
 .banner-container > img {
-    background: #FFFFFF;   
     width: 100%; 
 }
 
@@ -430,7 +432,7 @@ a:hover {
 }
 
 .hero-text h1 {
-    color: #000000;
+    color: #fff;
     font-size: 6.5em;
     margin: 2% 0 30px;
     line-height: 1.2em;
@@ -445,7 +447,7 @@ a:hover {
 
 .hero-text p {
     font-size: 1.6em;
-    color:#f49500;
+    color: #fff;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px #8F8F8F;
@@ -465,14 +467,6 @@ a:hover {
 .hero-img {
     text-align: center;
     margin: 10% auto 24px auto;
-}
-
-.hero-img p {
-    color: #FFFFFF;
-    font-size: 2.0em;
-    margin: 90px 0 30px;
-    line-height: 1.2em;
-    text-align: center;
 }
 
 .da-slider {
@@ -541,11 +535,10 @@ img, video, iframe, embed, object {
 /* Features
     -------------------------------------------------*/
 #features {
-    background: #FFDBC9;
+    background: #fff;
     padding-top: 35px;
     padding-bottom: 25px;
     overflow: hidden;
-    border-bottom: 2px #f49500 solid;
 }
 
 #features .feature {
@@ -554,25 +547,20 @@ img, video, iframe, embed, object {
 }
 
 #features .right {
-    padding-left: 12px;
+    padding-left: 32px;
     float: right;
 }
 
 #features .left {
-    padding-right: 12px;
+    padding-right: 32px;
     float: left;
 }
 
-#features h2 {
-    color: #f49500;
-}
-
 #features h3 {
-    font-size: 32px;
     font: 18px/34px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #f49500;
+    color: #222;
 }
 
 .fluid-video-wrapper {
@@ -580,21 +568,16 @@ img, video, iframe, embed, object {
 }
 
 #features .left {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 32px;
     float: left;
 }
 
 #features .right {
-    padding-left: 0px;
+    padding-left: 32px;
     float: right;
 }
 
-.row .three {
-    width: 100%;
-}
-
-.row .four {
+.row .six {
     width: 50%;
 }
 /* Services
@@ -718,7 +701,7 @@ img, video, iframe, embed, object {
 }
 
 #portfolio {
-    background: #FFFFFF;
+    background: #000;
 }
 
 #portfolio img {
@@ -785,7 +768,6 @@ nav#filter a {
 
 #services .col-md-3 {
     opacity: 0;
-    width: 30%
 }
 
 .fancybox-overlay {
@@ -1264,22 +1246,10 @@ footer {
 
 .contact-parlex {
     padding-top: 0px;
-    background-image: url('../images/banner-bg.jpg_bk');
+    background-image: url('../images/banner-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.contact-parlex h2 {
-    color: #FFFFFF;
-}
-
-.contact-parlex h3 {
-    color: #FFFFFF;
-}
-
-.contact-parlex p {
-    color: #FFFFFF;
 }
 
 .parlex-back {
@@ -1308,7 +1278,7 @@ footer {
 
 .flat .plan li {
     padding: 10px 15px;
-    color: #727171;
+    color: #ccc;
     border-top: 1px solid #f5f5f5;
     -webkit-transition: 300ms;
     transition: 300ms;
@@ -1366,17 +1336,4 @@ footer {
 
 .isotopeWrapper article {
     margin: 0px;
-}
-
-.google-calendar {
-    width: 100%;
-    max-width: 1000px;
-}
-
-.list {
-    color: #FFFFFF;
-}
-
-.a {
-    color: #FFFFFF;
 }
