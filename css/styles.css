@@ -425,7 +425,7 @@ a:hover {
 }
 
 .hero-text h1 {
-    color: #000000;
+    color:thistle;
     font-size: 6.5em;
     margin: 2% 0 30px;
     line-height: 1.2em;
@@ -1138,8 +1138,8 @@ footer {
 
     .header .navbar-brand b {
         padding-left: 0;
-        font-size: medium;
-        color: #d61e1e;
+        font-size: large;
+        color: #311E00;
     }
 
     .banner-container {
@@ -1166,13 +1166,12 @@ footer {
 
     .hero-text h1 {
         color:thistle;
-        font-size: large;
+        font-size: medium;
         margin: 2% 0 30px;
         line-height: 1.2em;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
         font-weight: 900;
-        font-size: 48px;
         margin: 37px 0 13px;
         text-transform: uppercase;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
