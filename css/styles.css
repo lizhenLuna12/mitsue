@@ -1044,7 +1044,7 @@ footer {
 
     .header .navbar-brand b {
         padding-left: 0;
-        font-size: small;
+        font-size: large;
         color: aqua;
     }
 
@@ -1138,8 +1138,8 @@ footer {
 
     .header .navbar-brand b {
         padding-left: 0;
-        font-size: small;
-        color: aqua;
+        font-size: large;
+        color: #FFFFFF;
     }
 
     .banner-container {
