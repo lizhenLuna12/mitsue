@@ -1016,6 +1016,10 @@ footer {
         padding-left: 0;
     }
 
+    .header .navbar-brand {
+        padding-left: 0;
+    }
+
     .navbar-nav {
         float: right;
     }
@@ -1030,6 +1034,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    .header .navbar-brand {
+        padding-left: 0;
+        font-size: large;
+    }
 
     .banner-container {
         background-size: contain;
