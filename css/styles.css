@@ -1035,9 +1035,10 @@ footer {
 
 @media (max-width: 768px) {
 
-    .header .navbar-brand {
+    .header .navbar-brand b {
         padding-left: 0;
         font-size: small;
+        color: aqua;
     }
 
     .banner-container {
