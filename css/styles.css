@@ -1044,7 +1044,7 @@ footer {
 
     .header .navbar-brand b {
         padding-left: 0;
-        font-size: large ;
+        font-size: medium ;
         color:#000000;
     }
 
@@ -1138,7 +1138,7 @@ footer {
 
     .header .navbar-brand b {
         padding-left: 0;
-        font-size: large;
+        font-size: medium;
         color: #d61e1e;
     }
 
@@ -1162,6 +1162,20 @@ footer {
 
     .navbar {
         min-height: 69px;
+    }
+
+    .hero-text h1 {
+        color:thistle;
+        font-size: large;
+        margin: 2% 0 30px;
+        line-height: 1.2em;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        font-weight: 900;
+        font-size: 48px;
+        margin: 37px 0 13px;
+        text-transform: uppercase;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
     }
 
     .da-slide h2 {
