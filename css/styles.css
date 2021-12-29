@@ -308,6 +308,7 @@ a:hover {
 .logo {
     font-size: 2.2em;
     text-shadow: none;
+    padding-top: 0.8em;
 }
 
 .logo:hover {
@@ -570,11 +571,17 @@ img, video, iframe, embed, object {
     color: #f49500;
 }
 
+#features .pos {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
 .fluid-video-wrapper {
     margin-top: 18px;
 }
 
-#features .left {
+##features .left {
     padding-left: 0px;
     padding-right: 0px;
     float: left;
@@ -1046,6 +1053,7 @@ footer {
         padding-left: 0;
         font-size: medium ;
         color:#000000;
+        padding-top: 0.8em;
     }
 
     .banner-container {
@@ -1140,6 +1148,7 @@ footer {
         padding-left: 0;
         font-size: large;
         color: #311E00;
+        padding-top: 0.8em;
     }
 
     .banner-container {
@@ -1175,6 +1184,13 @@ footer {
         margin: 37px 0 13px;
         text-transform: uppercase;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+    }
+
+    #features .pos {
+        display: block;
+        margin: 0;
+        text-align: center;
+        font-size: small
     }
 
     .da-slide h2 {
