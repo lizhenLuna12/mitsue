@@ -42,6 +42,7 @@ body {
 p {
     color: #858585;
     margin: 0 0 1em !important;
+    font-size:large;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -227,10 +228,11 @@ a:hover {
 }
 
 .hero-text {
-    color: #676e73;
+    padding-top: 1.0em;
+    color: #000000;
     width: 83%;
-    text-align: center;
-    margin: 0 auto 24px auto;
+    text-align: left;
+    margin: 12px auto 24px auto;
 }
 
 .hero-text p {
@@ -403,12 +405,7 @@ a:hover {
     width: 100%;
     position: relative;
     padding: 0px;
-    box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
     /*background: url("../images/banner-bg.jpg") no-repeat;*/
-    background-size: 100% 100%;
-    background-size: cover;
-    margin-top: 60px;
-    position: relative;
     border-bottom: 2px #f49500 solid;
 }
 
@@ -426,7 +423,7 @@ a:hover {
 }
 
 .hero-text h1 {
-    color:thistle;
+    color:#f8f7f5;
     font-size: 6.5em;
     margin: 2% 0 30px;
     line-height: 1.2em;
@@ -440,11 +437,12 @@ a:hover {
 }
 
 .hero-text p {
-    font-size: 2.5em;
-    color:#f49500;
+    font-size: 1.8em;
+    color:#000000;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px #8F8F8F;
+    text-align: center;
 }
 
 .hero-button {
@@ -537,7 +535,7 @@ img, video, iframe, embed, object {
 /* Features
     -------------------------------------------------*/
 #features {
-    background: #FFDBC9;
+    background:#000000;
     padding-top: 35px;
     padding-bottom: 25px;
     overflow: hidden;
@@ -550,12 +548,12 @@ img, video, iframe, embed, object {
 }
 
 #features .right {
-    padding-left: 12px;
+    padding-left: 32px;
     float: right;
 }
 
 #features .left {
-    padding-right: 12px;
+    padding-right: 32px;
     float: left;
 }
 
@@ -564,14 +562,22 @@ img, video, iframe, embed, object {
 }
 
 #features h3 {
-    font-size: 32px;
-    font: 18px/34px;
+    font-size: 1.4em;;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #f49500;
+    color: #ffffff;
+    text-align: center;
 }
 
 #features .pos {
+    color:#ffffff;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+#features .posBlack {
+    color:#000000;
     display: block;
     margin: 0;
     text-align: center;
@@ -581,24 +587,20 @@ img, video, iframe, embed, object {
     margin-top: 18px;
 }
 
-##features .left {
-    padding-left: 0px;
-    padding-right: 0px;
-    float: left;
-}
-
 #features .right {
-    padding-left: 0px;
+    padding-left: 32px;
     float: right;
 }
 
-.row .three {
-    width: 100%;
+#features .left {
+    padding-right: 32px;
+    float: left;
 }
 
-.row .four {
+.row .six {
     width: 50%;
 }
+
 /* Services
     -------------------------------------------------*/
 .grid .text-content {
@@ -1395,7 +1397,7 @@ footer {
 
 .flat .plan li > strong {
     color: #6B6B6B;
-    font-weight: normal;
+    font-weight: 900;
 }
 
 .flat .plan li.plan-action {
