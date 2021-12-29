@@ -989,6 +989,12 @@ footer {
     .navbar-header {
         float: none;
     } 
+
+    .header .navbar-brand {
+        padding-left: 0;
+        font-size: smaller;
+    }
+
     .navbar-toggle {
         display: block;
     }
@@ -1012,6 +1018,7 @@ footer {
     }
 }
 @media (min-width: 768px) {
+    
     .header .navbar-brand {
         padding-left: 0;
     }
@@ -1033,7 +1040,7 @@ footer {
     };
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .header .navbar-brand b {
         padding-left: 0;
@@ -1115,8 +1122,6 @@ footer {
 
     .header .navbar-brand b {
         padding-left: 0;
-        font-size: small;
-        color: aqua;
     }
     
     .header .navbar-nav > li > a {
