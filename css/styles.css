@@ -1025,6 +1025,11 @@ footer {
     }
 }
 @media (min-width: 768px) {
+
+    .logo {
+        text-shadow: none;
+        padding-top: 0.8em;
+    }
     
     .header .navbar-brand {
         padding-left: 0;
@@ -1143,6 +1148,12 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+
+    .logo {
+        font-size: large;
+        text-shadow: none;
+        padding-top: 0.8em;
+    }
 
     .header .navbar-brand b {
         padding-left: 0;
