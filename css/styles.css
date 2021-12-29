@@ -1112,6 +1112,13 @@ footer {
 }
 
 @media (max-width:760px) {
+
+    .header .navbar-brand b {
+        padding-left: 0;
+        font-size: small;
+        color: aqua;
+    }
+    
     .header .navbar-nav > li > a {
         padding: 7px 12px;
         font-size: 14px;
