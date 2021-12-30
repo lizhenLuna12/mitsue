@@ -256,7 +256,7 @@ img, video, iframe, embed, object {
 }
 
 #features .feature {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 3%;
 }
 
@@ -296,7 +296,7 @@ img, video, iframe, embed, object {
 }
 
 #features .images {
-    width: 80%;
+    width: 100%;
 }
 
 #features .posBlack {
@@ -499,7 +499,7 @@ img, video, iframe, embed, object {
     #features .pos {
         display: block;
         margin: 0;
-        text-align: center;
+        text-align: left;
         font-size: xx-small;
     }
 
@@ -604,6 +604,6 @@ img, video, iframe, embed, object {
     color: #FFFFFF;
 }
 
-.flat .plan.featured:hover li.plan-name, .flat .plan:hover li.plan-name, .flat .plan.featured.plan-name {
+.plan-name {
     background: #f49500 !important;
 }
