@@ -396,12 +396,12 @@ img, video, iframe, embed, object {
     }
 
     #features .images {
-        width: 80%;
+        width: 100%;
     }
 
     #features p {
         color: #FFFFFF; 
-        font-size: smaller;
+        font-size: small;
     }
 
     #features .flat .plan li {
