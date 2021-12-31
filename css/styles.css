@@ -217,9 +217,10 @@ footer {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
 }
 
-.hero-text p {
-    font-size: xx-large;
-    color:#000000;
+#features .hero-text p {
+    padding-top: 1.0em;
+    font-size:3.5em;
+    color:#f49500;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px #8F8F8F;
@@ -284,14 +285,14 @@ img, video, iframe, embed, object {
 
 #features p {
     color: #FFFFFF; 
-    font-size: medium;
+    font-size: 1.8em;
 }
 
 #features .pos {
     color:#ffffff;
     display: block;
     margin: 0;
-    text-align: center;
+    text-align: left;
     font-size: small;
 }
 
@@ -364,113 +365,6 @@ img, video, iframe, embed, object {
         padding-bottom: 10px;
     }
 }
-@media (min-width: 768px) {
-
-    .logo {
-        text-shadow: none;
-        padding-top: 0.8em;
-    }
-    
-    .header .navbar-brand {
-        padding-left: 0;
-    }
-
-    .header .navbar-brand {
-        padding-left: 0;
-    }
-
-    .navbar-nav {
-        float: right;
-    }
-
-    .navbar-inverse .navbar-nav > li > a {
-        color: #fff;
-        font-size: 1.1em;
-        padding: 6px 10px !important;
-        border-radius: 5px;
-        margin: 19px 0px;
-    };
-}
-
-@media screen and (max-width: 768px) {
-
-    .header .navbar-brand b {
-        padding-left: 0;
-        font-size: medium ;
-        color:#000000;
-        padding-top: 0.8em;
-    }
-
-    .banner-container {
-        background-size: contain;
-    }
-
-    .row .six {
-        width: auto;
-    }
-
-    .da-slide h2 {
-        font-size: 28px;
-    }
-
-    .banner-content p {
-        font-size: 1.2em;
-        text-shadow: none;
-    }
-
-    .hero-img {
-        display: none;
-    }
-
-    .da-slide p {
-        width: 67%;
-        top: 122px;
-    }
-
-    .team-member .member-img img {
-        max-width: 100%;
-    }
-
-    .da-slider {
-        height: 380px;
-        width: 100%;
-        min-width: initial;
-        margin: 0px !important;
-    }
-
-    .header .navbar-nav > li > a {
-        padding: 25px 12px;
-    }
-
-    .portfolio-item img {
-        text-decoration: none;
-        display: block;
-        width: 330px;
-        height: 228px;
-        float: left;
-        margin: 0 3px 3px 0;
-        opacity: 1;
-        -webkit-transform: scale(1,1);
-        -webkit-transition-timing-function: ease-out;
-        -webkit-transition-duration: 250ms;
-        -moz-transform: scale(1,1);
-        -moz-transition-timing-function: ease-out;
-        -moz-transition-duration: 250ms;
-    }
-
-    .portfolio-item:hover .folio-info {
-        top: 0px;
-    }
-
-    .portfolio-item .portfolio-desc .folio-info {
-        padding: 0px;
-    }
-
-    .portfolio-item .portfolio-desc .folio-info h5 {
-        font-size: 1em;
-    };
-}
-
 
 @media screen and (max-width: 480px) {
 
@@ -486,10 +380,11 @@ img, video, iframe, embed, object {
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
     }
 
-    .hero-text p {
+    #features .hero-text p {
+        padding-top: 2.0em;
         font-size: 1.5em;
         line-height: 1.3em;
-        color:#000000;
+        color:#f49500;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -500,7 +395,7 @@ img, video, iframe, embed, object {
         display: block;
         margin: 0;
         text-align: left;
-        font-size: xx-small;
+        font-size: x-small;
     }
 
     #features .images {
@@ -512,6 +407,8 @@ img, video, iframe, embed, object {
         font-size: small;
     }
 
+    #features img {
+    }
 
     #features .flat .plan li {
         font-size: small;
