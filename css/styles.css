@@ -401,10 +401,7 @@ img, video, iframe, embed, object {
 
     #features p {
         color: #FFFFFF; 
-        font-size: smaller;
-    }
-
-    #features img {
+        font-size: small;
     }
 
     #features .flat .plan li {
