@@ -156,7 +156,7 @@ footer {
 .hero-text {
     padding-top: 1.0em;
     color: #000000;
-    width: 83%;
+    width: 100%;
     text-align: left;
     margin: 12px auto 24px auto;
 }
@@ -345,6 +345,107 @@ footer {
     background: #f49500 !important;
 }
 
+/* ipad */
+@media screen and (max-width: 1000px) {
+
+    .hero-text {
+        padding-top: 1.0em;
+        color: #000000;
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero-text h1 {
+        color:#665050;
+        font-size: x-large;
+        line-height: 0em;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+        text-align: left;
+        padding-left: 0em;
+    }
+
+    #features .hero-text p {
+        padding-top: 1.0em;
+        padding-left: 0em;
+        font-size: x-large;
+        line-height: 1.3em;
+        color:#f49500;;
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        text-align: left;
+        font-weight: 900;
+
+    }
+
+    #features .images {
+        padding-top: 0.5em;
+        width: 100%;
+    }
+
+    #features .pSmall p {
+        color: #000000; 
+        font-size: large;
+        margin: 0;
+    }
+
+    #features .pSmaller p {
+        color: #000000; 
+        font-size: medium;
+        margin: 0;
+    }
+
+
+    #features .row .button {
+        text-align: center;
+        font-size: large;
+    }
+
+    #features .flat .plan li {
+        font-size: large;
+        line-height: 100%;
+        color: #727171;
+        border-top: 1px solid #f5f5f5;
+        -webkit-transition: 300ms;
+        transition: 300ms;
+    }
+    
+    
+    #features .flat .plan li.plan-name {
+        border-radius: 0;
+        border-top: 0;
+        font-size: large;
+        color: #fff;
+        background: #f49500;
+    }
+    
+    #features .flat .plan li > strong {
+        font-size: large;
+        color: #6B6B6B;
+        font-weight: 900;
+    }
+
+
+    
+    .flat .plan li.plan-action a {
+        font-size: large;
+    }
+
+    .copyright {
+        position: relative;
+        color: #6D6D6D;
+        background: #E9E9E9;    
+        font-size: xx-small;
+    }
+}
+
+/* iphonex */
 @media screen and (max-width: 480px) {
 
     .hero-text {
@@ -373,6 +474,113 @@ footer {
         padding-top: 1.0em;
         padding-left: 0em;
         font-size: large;
+        line-height: 1.3em;
+        color:#f49500;;
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        text-align: left;
+        font-weight: 900;
+
+    }
+
+    #features .pos {
+        display: block;
+        margin: 0;
+        text-align: left;
+        font-size: x-small;
+    }
+
+    #features .images {
+        padding-top: 0.5em;
+        width: 120%;
+    }
+
+    #features .pSmall p {
+        color: #000000; 
+        font-size: small;
+        margin: 0;
+    }
+
+    #features .pSmaller p {
+        color: #000000; 
+        font-size: x-small;
+        margin: 0;
+    }
+
+
+    #features .row .button {
+        text-align: center;
+        font-size: small;
+    }
+
+    #features .flat .plan li {
+        font-size: small;
+        line-height: 100%;
+        color: #727171;
+        border-top: 1px solid #f5f5f5;
+        -webkit-transition: 300ms;
+        transition: 300ms;
+    }
+    
+    
+    #features .flat .plan li.plan-name {
+        border-radius: 0;
+        border-top: 0;
+        font-size: medium;
+        color: #fff;
+        background: #f49500;
+    }
+    
+    #features .flat .plan li > strong {
+        font-size: small;
+        color: #6B6B6B;
+        font-weight: 900;
+    }
+
+
+    
+    .flat .plan li.plan-action a {
+        font-size: small;
+    }
+
+    .copyright {
+        position: relative;
+        color: #6D6D6D;
+        background: #E9E9E9;    
+        font-size: xx-small;
+    }
+}
+
+/* huawei p30 pro */
+@media screen and (max-width: 360px) {
+
+    .hero-text {
+        padding-top: 1.0em;
+        color: #000000;
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero-text h1 {
+        color:#665050;
+        font-size: medium;
+        line-height: 0em;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+        text-align: left;
+        padding-left: 0em;
+    }
+
+    #features .hero-text p {
+        padding-top: 1.0em;
+        padding-left: 0em;
+        font-size: medium;
         line-height: 1.3em;
         color:#f49500;;
         font-style: normal;
