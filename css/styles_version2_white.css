@@ -249,7 +249,7 @@ footer {
 }
 
 #features .images {
-    width: 80%;
+    width: 50%;
 }
 
 #features .posBlack {
@@ -350,15 +350,17 @@ footer {
     .hero-text {
         padding-top: 1.0em;
         color: #000000;
-        width: 83%;
+        width: 100%;
         text-align: left;
         padding-left: 0;
+        padding-right: 0;
         margin-left: 0;
+        margin-right: 0;
     }
 
     .hero-text h1 {
         color:#665050;
-        font-size: 1.3em;
+        font-size: medium;
         line-height: 0em;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -370,7 +372,7 @@ footer {
     #features .hero-text p {
         padding-top: 1.0em;
         padding-left: 0em;
-        font-size: 1.4em;
+        font-size: large;
         line-height: 1.3em;
         color:#f49500;;
         font-style: normal;
