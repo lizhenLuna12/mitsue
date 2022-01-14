@@ -461,7 +461,7 @@ footer {
 
     .hero-text h1 {
         color:#665050;
-        font-size: medium;
+        font-size: large;
         line-height: 0em;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -527,7 +527,7 @@ footer {
     #features .flat .plan li.plan-name {
         border-radius: 0;
         border-top: 0;
-        font-size: medium;
+        font-size: small;
         color: #fff;
         background: #f49500;
     }
@@ -568,7 +568,7 @@ footer {
 
     .hero-text h1 {
         color:#665050;
-        font-size: 1.4em;
+        font-size: medium;
         line-height: 0em;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -634,7 +634,7 @@ footer {
     #features .flat .plan li.plan-name {
         border-radius: 0;
         border-top: 0;
-        font-size: medium;
+        font-size: small;
         color: #fff;
         background: #f49500;
     }
