@@ -203,7 +203,7 @@ footer {
 /* Features
     -------------------------------------------------*/
 #features {
-    background:#000000;
+    background:#180461;
     overflow: hidden;
     border-bottom: 2px #f49500 solid;
 }
@@ -371,7 +371,7 @@ footer {
         padding-left: 0em;
         font-size: x-large;
         line-height: 1.3em;
-        color:#f49500;;
+        color:#ffffff;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -482,7 +482,7 @@ footer {
         padding-left: 0em;
         font-size: large;
         line-height: 1.3em;
-        color:#f49500;;
+        color:#ffffff;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -600,7 +600,7 @@ footer {
         padding-left: 0em;
         font-size: 1.4em;
         line-height: 1.3em;
-        color:#f49500;;
+        color:#ffffff;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
