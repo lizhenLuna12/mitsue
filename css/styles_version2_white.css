@@ -393,11 +393,18 @@ footer {
         width: 120%;
     }
 
-    #features p {
+    #features .pSmall p {
         color: #000000; 
         font-size: small;
         margin: 0;
     }
+
+    #features .pSmaller p {
+        color: #000000; 
+        font-size: x-small;
+        margin: 0;
+    }
+
 
     #features .row .button {
         text-align: center;
@@ -417,7 +424,7 @@ footer {
     #features .flat .plan li.plan-name {
         border-radius: 0;
         border-top: 0;
-        font-size: small;
+        font-size: medium;
         color: #fff;
         background: #f49500;
     }
