@@ -223,10 +223,6 @@ footer {
     float: left;
 }
 
-#features h2 {
-    color: #f49500;
-}
-
 #features h3 {
     font-size: 1.4em;;
     text-transform: uppercase;
@@ -470,6 +466,17 @@ footer {
         padding-left: 0em;
     }
 
+    .hero-text .instructor h1{
+        color:#665050;
+        font-size: 1.4em;
+        line-height: 0em;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+        text-align: left;
+        padding-left: 0em;
+    }
+
     #features .hero-text p {
         padding-top: 1.0em;
         padding-left: 0em;
@@ -569,6 +576,17 @@ footer {
     .hero-text h1 {
         color:#665050;
         font-size: 1.6em;
+        line-height: 0em;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+        text-align: left;
+        padding-left: 0em;
+    }
+
+    .hero-text .instructor h1{
+        color:#665050;
+        font-size: 1.2em;
         line-height: 0em;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
