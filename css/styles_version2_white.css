@@ -358,7 +358,7 @@ footer {
 
     .hero-text h1 {
         color:#665050;
-        font-size: 1.2em;
+        font-size: 1.5em;
         line-height: 0em;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -370,13 +370,14 @@ footer {
 
     #features .hero-text p {
         padding-top: 1.0em;
+        padding-left: 0em;
         font-size: 1.5em;
         line-height: 1.3em;
         color:#f49500;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
-        text-align: right;
+        text-align: left;
     }
 
     #features .pos {
