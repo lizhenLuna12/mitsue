@@ -395,18 +395,18 @@ footer {
 
     #features p {
         color: #000000; 
-        font-size: xx-small;
+        font-size: small;
         margin: 0;
     }
 
     #features .row .button {
         text-align: center;
-        font-size: smaller;
+        font-size: small;
     }
 
     #features .flat .plan li {
-        font-size: smaller;
-        line-height: 50%;
+        font-size: small;
+        line-height: 100%;
         color: #727171;
         border-top: 1px solid #f5f5f5;
         -webkit-transition: 300ms;
@@ -423,7 +423,7 @@ footer {
     }
     
     #features .flat .plan li > strong {
-        font-size: smaller;
+        font-size: small;
         color: #6B6B6B;
         font-weight: 900;
     }
@@ -431,7 +431,7 @@ footer {
 
     
     .flat .plan li.plan-action a {
-        font-size: smaller;
+        font-size: small;
     }
 
     .copyright {
