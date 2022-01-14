@@ -1,0 +1,477 @@
+/*
+Theme Name: Dark Touch 
+Author URI: http://webthemez.com/
+Description: This theme is a best responsive web template. It would be great for a corporate websites, business websites, personal blog.
+License: Free to use for personal and commercial, but you need to place back link in the bottom of the template.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,900);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size:100%;
+    line-height: 1.7;
+    color: #666666;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    margin: 0%;
+    padding: 0%;
+}
+
+p {
+    color: #858585;
+    margin: 0 0 1em !important;
+    font-size:large;
+}
+
+.show {
+    opacity: 1;
+}
+
+.btn {
+    background: #f49500;
+    font-size: smaller;
+    border: 0px;
+    border-radius: 0px;
+}
+
+
+.btn, .form-control, .team-socials i {
+    border-radius: 3px !important;
+}
+
+
+.button-outline {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    color: #fff;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(255,255,255,0.15);
+}
+
+.button-outline:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.35);
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.form-control {
+    border-radius: 0px;
+}
+
+.mrgn30 {
+    margin: 30px 0;
+}
+
+footer {
+    position: relative;
+    color: #6D6D6D;
+    background: #E9E9E9;
+}
+
+#top {
+    position: relative;
+}
+
+.topHome {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 5;
+}
+
+
+
+/* Header 
+----------------------------------------------*/
+
+#section-top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+#section-top ul li {
+    display: inline-block;
+}
+
+#section-top ul li a {
+    border-radius: 2px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+#section-top .region-top-first {
+    float: right;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: #ffa831;
+    z-index: 50;
+    border-radius: 0;
+    top: 0px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.hero-text {
+    padding-top: 1.0em;
+    color: #000000;
+    width: 83%;
+    text-align: left;
+    margin: 12px auto 24px auto;
+}
+
+/*.carousel-inner*/
+#myCarousel {
+    margin-top: 50px;
+    border-bottom: 4px solid #f49500;
+}
+
+#home {
+    background-image: url('../images/banner-bg.jpg');
+}
+
+/*--- Banner ----*/
+.banner-container {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    margin-top: 3%;
+    /*background: url("../images/banner-bg.jpg") no-repeat;*/
+}
+
+.banner-container > img {
+    background: #000000;   
+    width: 100%; 
+}
+
+.banner-content {
+    position: relative;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.hero-text h1 {
+    color:#FFFFFF;
+    font-size: xx-large;
+    line-height: 1.2em;
+    margin: 10% 0 2%;
+    font-family: "ヒラギノ角ゴ ProN W6";
+    text-shadow: 1px 1px 1px #8F8F8F;
+    font-weight: 900;
+    margin: 1% 0 13px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+#features .hero-text p {
+    padding-top: 1.0em;
+    font-size:4.0em;
+    color:#f49500;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #8F8F8F;
+    text-align: center;
+}
+
+.hero-button {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.36);
+    border: 1px solid #fff;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    clear: left;
+    width: auto;
+}
+
+.hero-img {
+    text-align: center;
+    margin: 10% auto 24px auto;
+}
+
+
+img, video, iframe, embed, object {
+    max-width: 100%;
+    height: auto;
+}
+/* Features
+    -------------------------------------------------*/
+#features {
+    background:#000000;
+    overflow: hidden;
+    border-bottom: 2px #f49500 solid;
+}
+
+#features .feature {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#features .right {
+    padding-left: 32px;
+    float: right;
+}
+
+#features .left {
+    padding-right: 32px;
+    float: left;
+}
+
+#features h2 {
+    color: #f49500;
+}
+
+#features h3 {
+    font-size: 1.4em;;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#features p {
+    color: #FFFFFF; 
+    font-size: 1.5em;
+}
+
+#features .pos {
+    color:#ffffff;
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-size: medium;
+}
+
+#features .images {
+    width: 80%;
+}
+
+#features .posBlack {
+    color:#000000;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+#features .row .button {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.fluid-video-wrapper {
+    margin-top: 18px;
+}
+
+#features .right {
+    padding-left: 32px;
+    float: right;
+}
+
+#features .left {
+    padding-right: 32px;
+    float: left;
+}
+
+.row .six {
+    width: 50%;
+}
+
+
+/*Price table*/
+.flat .plan {
+    border-radius: 0px;
+    list-style: none;
+    padding: 0 0 20px;
+    margin: 0 0 15px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.29) !important;
+}
+
+.flat .plan li {
+    font-size: medium;
+    padding: 10px 15px;
+    color: #727171;
+    border-top: 1px solid #f5f5f5;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+}
+
+.flat .plan li.plan-price {
+    border-top: 0;
+}
+
+.flat .plan li.plan-name {
+    border-radius: 0;
+    font-size: x-large;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    background: #f49500;
+    border-top: 0;
+}
+
+.flat .plan li > strong {
+    color: #6B6B6B;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.flat .plan li.plan-action {
+    margin-top: 10px;
+    border-top: 0;
+}
+
+.flat .plan.featured {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.list {
+    color: #FFFFFF;
+}
+
+.a {
+    color: #FFFFFF;
+}
+
+.plan-name {
+    background: #f49500 !important;
+}
+
+@media screen and (max-width: 480px) {
+
+    .hero-text {
+        padding-top: 1.0em;
+        color: #000000;
+        width: 83%;
+        text-align: left;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .hero-text h1 {
+        color:#FFFFFF;
+        font-size: 1.2em;
+        line-height: 0em;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        font-weight: 900;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+        text-align: left;
+        padding-left: 0em;
+    }
+
+    #features .hero-text p {
+        padding-top: 1.0em;
+        font-size: 1.5em;
+        line-height: 1.3em;
+        color:#f49500;;
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 1px #8F8F8F;
+        text-align: right;
+    }
+
+    #features .pos {
+        display: block;
+        margin: 0;
+        text-align: left;
+        font-size: x-small;
+    }
+
+    #features .images {
+        padding-top: 0.5em;
+        width: 100%;
+    }
+
+    #features p {
+        color: #FFFFFF; 
+        font-size: x-small;
+        margin: 0;
+    }
+
+    #features .row .button {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    #features .flat .plan li {
+        font-size: smaller;
+        line-height: 70%;
+        color: #727171;
+        border-top: 1px solid #f5f5f5;
+        -webkit-transition: 300ms;
+        transition: 300ms;
+    }
+    
+    
+    #features .flat .plan li.plan-name {
+        border-radius: 0;
+        border-top: 0;
+        font-size: small;
+        color: #fff;
+        background: #f49500;
+    }
+    
+    #features .flat .plan li > strong {
+        font-size: smaller;
+        color: #6B6B6B;
+        font-weight: 900;
+    }
+
+
+    
+    .flat .plan li.plan-action a {
+        font-size: smaller;
+    }
+
+    .copyright {
+        position: relative;
+        color: #6D6D6D;
+        background: #E9E9E9;    
+        font-size: xx-small;
+    }
+}
