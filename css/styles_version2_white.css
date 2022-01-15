@@ -52,7 +52,7 @@ p {
 }
 
 .btn {
-    background: #ec76e6;
+    background: #006400;
     font-size: smaller;
     border: 0px;
     border-radius: 0px;
@@ -187,7 +187,7 @@ footer {
 #features .hero-text p {
     padding-top: 1.0em;
     font-size:4.0em;
-    color:#ec76e6;
+    color:#006400;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px #8F8F8F;
@@ -216,7 +216,7 @@ footer {
 #features {
     background:#FFFFFF;
     overflow: hidden;
-    border-bottom: 2px #ec76e6 solid;
+    border-bottom: 2px #006400 solid;
 }
 
 #features .feature {
@@ -319,7 +319,7 @@ footer {
     font-size: x-large;
     line-height: 24px;
     color: rgb(255, 255, 255);
-    background: #ec76e6;
+    background: #006400;
     border-top: 0;
 }
 
@@ -349,7 +349,7 @@ footer {
 }
 
 .plan-name {
-    background: #ec76e6 !important;
+    background: #006400 !important;
 }
 
 
@@ -399,7 +399,7 @@ footer {
         padding-left: 0em;
         font-size: x-large;
         line-height: 1.3em;
-        color:#ec76e6;;
+        color:#006400;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -446,7 +446,7 @@ footer {
         border-top: 0;
         font-size: large;
         color: #fff;
-        background: #ec76e6;
+        background: #006400;
     }
     
     #features .flat .plan li > strong {
@@ -510,7 +510,7 @@ footer {
         padding-left: 0em;
         font-size: large;
         line-height: 1.3em;
-        /*color:#ec76e6;;*/
+        color:#006400;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -564,7 +564,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background: #ec76e6;
+        background:#006400;
     }
     
     #features .flat .plan li > strong {
@@ -628,7 +628,7 @@ footer {
         padding-left: 0em;
         font-size: 1.4em;
         line-height: 1.3em;
-        color:#ec76e6;;
+        color:#006400;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -682,7 +682,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background: #ec76e6;
+        background: #006400;
     }
     
     #features .flat .plan li > strong {
@@ -746,7 +746,7 @@ footer {
         padding-left: 0em;
         font-size: 1.2em;
         line-height: 1.3em;
-        color:#ec76e6;;
+        color:#006400;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -800,7 +800,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background: #ec76e6;
+        background: #006400;
     }
     
     #features .flat .plan li > strong {
