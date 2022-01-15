@@ -52,41 +52,12 @@ p {
 }
 
 .btn {
-    background: #006400;
+    background: #008000;
     font-size: smaller;
     border: 0px;
     border-radius: 0px;
 }
 
-
-.btn, .form-control, .team-socials i {
-    border-radius: 3px !important;
-}
-
-
-.button-outline {
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    vertical-align: middle;
-    zoom: 1;
-    color: #fff;
-    padding: 10px 25px;
-    border: 2px solid #fff;
-    border-radius: 0px;
-    font-size: 16px;
-    font-weight: 400;
-    background: rgba(255,255,255,0.15);
-}
-
-.button-outline:hover {
-    color: #fff;
-    background: rgba(255,255,255,0.35);
-}
-
-a:hover {
-    color: #000;
-    text-decoration: none;
-}
 
 
 .form-control {
@@ -103,16 +74,6 @@ footer {
     background: #E9E9E9;
 }
 
-#top {
-    position: relative;
-}
-
-.topHome {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 5;
-}
 
 
 
@@ -187,7 +148,7 @@ footer {
 #features .hero-text p {
     padding-top: 1.0em;
     font-size:4.0em;
-    color:#006400;
+    color:#008000;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px #8F8F8F;
@@ -216,7 +177,7 @@ footer {
 #features {
     background:#FFFFFF;
     overflow: hidden;
-    border-bottom: 2px #006400 solid;
+    border-bottom: 2px #008000 solid;
 }
 
 #features .feature {
@@ -319,7 +280,7 @@ footer {
     font-size: x-large;
     line-height: 24px;
     color: rgb(255, 255, 255);
-    background: #006400;
+    background: #008000;
     border-top: 0;
 }
 
@@ -349,7 +310,7 @@ footer {
 }
 
 .plan-name {
-    background: #006400 !important;
+    background: #008000 !important;
 }
 
 
@@ -399,7 +360,7 @@ footer {
         padding-left: 0em;
         font-size: x-large;
         line-height: 1.3em;
-        color:#006400;;
+        color:#008000;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -446,7 +407,7 @@ footer {
         border-top: 0;
         font-size: large;
         color: #fff;
-        background: #006400;
+        background: #008000;
     }
     
     #features .flat .plan li > strong {
@@ -510,7 +471,7 @@ footer {
         padding-left: 0em;
         font-size: large;
         line-height: 1.3em;
-        color:#006400;
+        color:#008000;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -552,7 +513,7 @@ footer {
     #features .flat .plan li {
         font-size: small;
         line-height: 80%;
-        color: #000000;
+        color: #727070;
         border-top: 1px solid #f5f5f5;
         -webkit-transition: 300ms;
         transition: 300ms;
@@ -564,7 +525,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background:#006400;
+        background:#008000;
     }
     
     #features .flat .plan li > strong {
@@ -628,7 +589,7 @@ footer {
         padding-left: 0em;
         font-size: 1.4em;
         line-height: 1.3em;
-        color:#006400;;
+        color:#008000;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -670,7 +631,7 @@ footer {
     #features .flat .plan li {
         font-size: small;
         line-height: 80%;
-        color: #000000;
+        color: #D6D6D6;
         border-top: 1px solid #f5f5f5;
         -webkit-transition: 300ms;
         transition: 300ms;
@@ -682,7 +643,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background: #006400;
+        background: #008000;
     }
     
     #features .flat .plan li > strong {
@@ -746,7 +707,7 @@ footer {
         padding-left: 0em;
         font-size: 1.2em;
         line-height: 1.3em;
-        color:#006400;;
+        color:#008000;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -800,7 +761,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background: #006400;
+        background: #008000;
     }
     
     #features .flat .plan li > strong {
