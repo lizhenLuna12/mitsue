@@ -52,7 +52,7 @@ p {
 }
 
 .btn {
-    background: #dc143c;
+    background: #008000;
     font-size: smaller;
     border: 0px;
     border-radius: 0px;
@@ -148,7 +148,7 @@ footer {
 #features .hero-text p {
     padding-top: 1.0em;
     font-size:4.0em;
-    color:#dc143c;
+    color:#008000;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px #8F8F8F;
@@ -177,7 +177,7 @@ footer {
 #features {
     background:#FFFFFF;
     overflow: hidden;
-    border-bottom: 2px #dc143c solid;
+    border-bottom: 2px #008000 solid;
 }
 
 #features .feature {
@@ -265,7 +265,7 @@ footer {
 .flat .plan li {
     font-size: medium;
     padding: 10px 15px;
-    color: #000000;
+    color: #727070;
     border-top: 1px solid #f5f5f5;
     -webkit-transition: 300ms;
     transition: 300ms;
@@ -280,7 +280,7 @@ footer {
     font-size: x-large;
     line-height: 24px;
     color: rgb(255, 255, 255);
-    background: #dc143c;
+    background: #008000;
     border-top: 0;
 }
 
@@ -310,7 +310,7 @@ footer {
 }
 
 .plan-name {
-    background: #dc143c !important;
+    background: #008000 !important;
 }
 
 
@@ -360,7 +360,7 @@ footer {
         padding-left: 0em;
         font-size: x-large;
         line-height: 1.3em;
-        color:#dc143c;;
+        color:#008000;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -395,7 +395,7 @@ footer {
     #features .flat .plan li {
         font-size: large;
         line-height: 80%;
-        color: #000000;
+        color: #727070;
         border-top: 1px solid #f5f5f5;
         -webkit-transition: 300ms;
         transition: 300ms;
@@ -407,7 +407,7 @@ footer {
         border-top: 0;
         font-size: large;
         color: #fff;
-        background: #dc143c;
+        background: #008000;
     }
     
     #features .flat .plan li > strong {
@@ -471,7 +471,7 @@ footer {
         padding-left: 0em;
         font-size: large;
         line-height: 1.3em;
-        color:#dc143c;
+        color:#008000;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -525,7 +525,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background:#dc143c;
+        background:#008000;
     }
     
     #features .flat .plan li > strong {
@@ -589,7 +589,7 @@ footer {
         padding-left: 0em;
         font-size: 1.4em;
         line-height: 1.3em;
-        color:#dc143c;;
+        color:#008000;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -643,7 +643,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background: #dc143c;
+        background: #008000;
     }
     
     #features .flat .plan li > strong {
@@ -707,7 +707,7 @@ footer {
         padding-left: 0em;
         font-size: 1.2em;
         line-height: 1.3em;
-        color:#dc143c;;
+        color:#008000;;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         text-shadow: 1px 1px 1px #8F8F8F;
@@ -749,7 +749,7 @@ footer {
     #features .flat .plan li {
         font-size: small;
         line-height: 80%;
-        color: #000000;
+        color: #727070;
         border-top: 1px solid #f5f5f5;
         -webkit-transition: 300ms;
         transition: 300ms;
@@ -761,7 +761,7 @@ footer {
         border-top: 0;
         font-size: small;
         color: #fff;
-        background: #dc143c;
+        background: #008000;
     }
     
     #features .flat .plan li > strong {
