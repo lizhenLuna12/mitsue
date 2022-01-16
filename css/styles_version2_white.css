@@ -134,7 +134,7 @@ footer {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
 }
 
-.hero-text .instructor h1{
+.hero-text .instructor h2 {
     color:#665050;
     font-size: x-large;
     line-height: 0em;
@@ -344,7 +344,7 @@ footer {
         padding-left: 0em;
     }
 
-    .hero-text .instructor h1{
+    .hero-text .instructor h2 {
         color:#665050;
         font-size: large;
         line-height: 0em;
@@ -455,7 +455,7 @@ footer {
         padding-left: 0em;
     }
 
-    .hero-text .instructor h1{
+    .hero-text .instructor h2 {
         color:#665050;
         font-size: 1.4em;
         line-height: 0em;
@@ -573,7 +573,7 @@ footer {
         padding-left: 0em;
     }
 
-    .hero-text .instructor h1{
+    .hero-text .instructor h2 {
         color:#665050;
         font-size: 1.5em;
         line-height: 0em;
@@ -691,7 +691,7 @@ footer {
         padding-left: 0em;
     }
 
-    .hero-text .instructor h1{
+    .hero-text .instructor h2 {
         color:#665050;
         font-size: 1.5em;
         line-height: 0em;
